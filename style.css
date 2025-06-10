@@ -19,4 +19,9 @@ button {
 }
 button:hover {
   background-color: #003976;
+  transition: 300ms;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
